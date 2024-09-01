@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+<style type="text/css">
+body {
+background: #222;
+margin-top: 20px;
+}
+h3 {
+color: #eee;
+font-family: Verdana;
+}
+.thumbnails img {
+height: 80px;
+border: 4px solid #555;
+padding: 1px;
+margin: 0 10px 10px 0;
+}
+.thumbnails img:hover {
+border: 4px solid #00ccff;
+cursor:pointer;
+}
+.preview img {
+border: 4px solid #444;
+padding: 1px;
+height: 500px;
+}
+.topnav {
+  background-color: #26e6c2;
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(84, 227, 215);
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <div class="topnav">
+      <a href="contact.html">contact</a>
+      <a href="imagegallery.html">gallery</a>
+      <a href="sevice.html">services</a>
+      <a href="aboutus.html">about</a>
+      <a href="index.html">home</a>
+  </div>
+<div class="gallery" align="center">
+<h3>gallery</h3><br/>
+<div class="thumbnails">
+<img onmouseover="preview.src=img1.src" id="img1" src="pic1.jpeg" alt="Image Not Loaded"/>
+<img onmouseover="preview.src=img2.src" id="img2" src="pic2.jpeg" alt="Image Not Loaded"/>
+<img onmouseover="preview.src=img3.src" id="img3" src="pic 3.jpeg" alt="Image Not Loaded"/>
+<img onmouseover="preview.src=img4.src" id="img4" src="pic4.jpeg" alt="Image Not Loaded"/>
+<img onmouseover="preview.src=img5.src" id="img5" src="pic5.jpeg" alt="Image Not Loaded"/>
+<img onmouseover="preview.src=img6.src" id="img6" src="pic7.jpeg" alt="Image Not Loaded"/>
+<img onmouseover="preview.src=img7.src" id="img7" src="pic8.jpeg" alt="Image Not Loaded"/>
+<img onmouseover="preview.src=img8.src" id="img8" src="pic10.jpeg" alt="Image Not Loaded"/>
+<img onmouseover="preview.src=img9.src" id="img8" src="pic11.jpeg" alt="Image Not Loaded"/>
+</div><br/>
+<div class="preview" align="center">
+<img id="preview" src="pic1.jpeg" alt="No Image Loaded"/>
+</div>
+</div> 
+</body>
+</html>
